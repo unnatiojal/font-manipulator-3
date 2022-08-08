@@ -7,7 +7,7 @@ function setup() {
     video.size(500, 500);
 
     canvas = createCanvas(550, 500);
-    canvas.position(600, 150);
+    canvas.position(560, 150);
 
     poseNet = ml5.poseNet(video, modalLoaded);
     poseNet.on('pose', gotPoses);
